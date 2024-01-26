@@ -36,7 +36,13 @@ h2{
 }
 
 body {
-    background-color: rgb(190, 235, 190) 
+    background-color: rgb(245, 250, 245) 
+}
+
+.portada-escapes{
+    color: rgb(234, 237, 240);
+    font-size: 2rem;
+    
 }
 
 
@@ -55,7 +61,7 @@ body {
 }
 
 .caja {
-    background-image: url(../img/portada-de-viajes.jpeg);
+    background-image: url(../img/fondo-portada-u.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -63,15 +69,19 @@ body {
     width: 100%;
 }
 
-.los-productos{
-    width: 50rem;
-}
-
 .elemento-padre{
     display: flex;
+    border:1px solid;    
+    padding: 20px;
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+.los-productos{
+    border: 0cap;
     
 }
+
 
 @media only screen and (min-width: 500px){
     .elemento-padre{
@@ -80,6 +90,29 @@ body {
         flex-wrap: wrap;
         gap: 2rem;
         
+    }
+}
+
+.descripción{
+    font-size: small;
+}
+
+.imag{
+    width: 20rem;
+}
+
+.fotospad{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 500px) {
+    .fotospad{
+        display: flex;
+        justify-content: center;        
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem
     }
 }
 

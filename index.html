@@ -13,53 +13,70 @@
 </head>
 <body>
     <div class="caja">
-        <p>Escapes cercanos, miniturismos</p>
+        <p class="portada-escapes">Escapes cercanos, miniturismos</p>
     </div>
     <header>
         <h1>Escapes Cercanos</h1>
-        <img src="img/images-escapes-cercanos-portada.jpeg" alt="imágen de portada">
+        
     <p>Viajes locales y nacionales, escapadas cercanas para descansar</p>
-
-    <nav>
-        <ul>
-            <li><a href="pages/nosotros.html">Nosotros</a></li>
-            <li><a href="pages/destinos.html">Destinos</a></li>
-            <li><a href="pages/misreservas.html">Mis reservas</a></li>
-            <li><a href="pages/contacto.html">Contacto</a></li>
-        </ul>  
-
-    </nav>    
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>               
+               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/destinos.html">Destinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/misreservas.html">Mis reservas </a>                  
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     </header>
 
     <main>
         
-        <h2 class="destinos">Destinos locales</h2>
-        <div class="elemento-padre">
+        <h2 class="destinos">Destinos locales en promoción</h2>
+        <div class="elemento-padre">            
         <Section class="los-productos">
             <h3>Villa General Belgrano</h3>
             <img class="imagen-paisaje" src="img/villa_general_belgrano.jpeg" alt="Plaza de Villa General Belgrano">
-            <p>Escapada el fin de semana de enero 27/01</p>
-            <p>$25000</p>
+            <p class="descripción">Escapada el fin de semana de enero 27/01</p>
+            <p>$50.000</p>
         </Section>
-        
+
         <section class="los-productos">
             <h3>Miramar de Ansenuza</h3>
             <img class="imagen-paisaje" src="img/miramar_de_ansenuza.jpeg" alt="foto Miramar de Ansenuza">
-        <p>Escapada el fin de semana de febrero 03/02 </p>
-        <p>$26000</p>
+        <p class="descripción">Escapada el fin de semana de febrero 03/02</p>
+        <p>$55.000</p>
         </section>
         <section class="los-productos">
             <h3>La Cumbrecita</h3>
             <img class="imagen-paisaje" src="img/la_cumbrecita_.jpeg" alt="foto La Cumbrecita, Pueblo peatonal">
-            <p>Escapada el fin de semana de febrero 10/02</p>
-            <p>$30000</p>
+            <p class="descripción">Escapada el fin de semana de febrero 10/02</p>
+            <p>$70.000</p>
         </section> 
     </div>
                    
     </main>
 
-    <div id="links de interés">
+    <div id="links-de-interés">
         <p>links de interés</p>
             <a href="https://pasajesterminaldecordoba.com/" target="_blank">página de la terminal de omnibus</a>            
     </div>
