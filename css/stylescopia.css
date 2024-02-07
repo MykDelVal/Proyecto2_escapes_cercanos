@@ -1,0 +1,119 @@
+*{    
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;   
+  
+}
+
+h1 { 
+color: rgba(28, 0, 128, 0.986);
+font-size: xx-large;
+font-weight: 400;
+text-align: center;
+   
+}
+
+a{
+text-decoration: none;
+font-weight: 300;
+}
+
+ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+ol{
+list-style: none;
+}
+
+h2{
+color: rgb(138, 60, 5);
+font-size: 2rem;
+}
+
+body {
+background-color: rgb(245, 250, 245) 
+}
+
+.portada-escapes{
+color: rgb(234, 237, 240);
+font-size: 2rem;
+
+}
+
+
+.destinos {
+color: rgb(4, 77, 4);
+}
+
+.destinosprovinciales { 
+color: blueviolet;
+
+}
+
+.destinosnacionales {
+color: darkgreen;
+
+}
+
+.caja {
+background-image: url(../img/fondo-portada-u.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+width: 100%;
+}
+
+.elemento-padre{
+display: flex;
+border:1px solid;    
+padding: 20px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.los-productos{
+border: 0cap;
+
+}
+
+
+@media only screen and (min-width: 500px){
+.elemento-padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+}
+
+.descripción{
+font-size: small;
+}
+
+.imag{
+width: 20rem;
+}
+
+.fotospad{
+display: flex;
+flex-direction: column;
+}
+
+@media only screen and (min-width: 500px) {
+.fotospad{
+    display: flex;
+    justify-content: center;        
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem
+}
+}
+
+
